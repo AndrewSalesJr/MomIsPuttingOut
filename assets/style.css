@@ -1,13 +1,42 @@
+body {
+    margin: 0;
+
+}
 #header-info {
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    background-color: maroon;
+    background-color: #4F7942;
 }
 #name {
-    color: beige;
-    font-famil
-    margin-bottom: 0px;
+    height: 50%;
+    width:50%;
+    min-height: 100px;
+    min-width: 550px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 5%;
 }
 #tagline {
+    font-size: 1.5em;
     margin-top: 0px;
+    color: #A9BA9D;
+
+
+}
+nav{
+    background-color: #4B6F44;
+}
+#nav-bar {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-butt {
+    display: inline-flex;
+    color: antiquewhite;
+    font-size: 1.6em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
