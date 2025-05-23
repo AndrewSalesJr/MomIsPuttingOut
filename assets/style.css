@@ -1,6 +1,6 @@
-body {
+*{
+    padding: 0;
     margin: 0;
-
 }
 #header-info {
     padding: 0;
@@ -17,26 +17,24 @@ body {
     margin-top: 0;
     padding-top: 5%;
 }
-#tagline {
-    font-size: 1.5em;
-    margin-top: 0px;
-    color: #A9BA9D;
-
-
-}
 nav{
     background-color: #4B6F44;
+    display: flex;
+    width:auto;
+    justify-content: center;
+    
 }
 #nav-bar {
-    padding-left: 10%;
-    padding-right: 10%;
+    display: inline-flex;
+    flex-wrap: nowrap;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 .nav-butt {
-    display: inline-flex;
+    text-wrap: nowrap;
     color: antiquewhite;
-    font-size: 1.6em;
-    padding-left: 5%;
-    padding-right: 5%;
+    list-style-type: none;
+    font-size: 1.6rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
 }
